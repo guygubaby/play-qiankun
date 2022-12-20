@@ -1,0 +1,37 @@
+{
+  "name": "vue-webpack-starter",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@7.18.2",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "preview": "tsx watch serve.ts"
+  },
+  "dependencies": {
+    "core-js": "^3.26.1",
+    "tsx": "^3.12.1",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@bryce-loskie/eslint-config": "^2.0.9",
+    "@types/node": "^18.11.17",
+    "@types/webpack-env": "^1.18.0",
+    "@unocss/reset": "^0.47.6",
+    "@unocss/webpack": "^0.47.6",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-router": "~5.0.8",
+    "@vue/cli-plugin-typescript": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "eslint": "^8.30.0",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "sirv": "^2.0.2",
+    "typescript": "~4.9.4",
+    "unocss": "^0.47.6"
+  }
+}
